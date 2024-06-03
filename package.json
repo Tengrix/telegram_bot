@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@grammyjs/menu": "^1.2.1",
+    "@notionhq/client": "^2.2.15",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.5",
+    "express": "~4.16.1",
+    "grammy": "^1.22.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.1.0",
+    "pug": "2.0.0-beta11"
+  }
+}
